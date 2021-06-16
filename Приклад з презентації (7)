@@ -1,0 +1,21 @@
+using System;
+
+namespace lab17
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const string MSG = "HELLO";
+
+            string name = "Vasj";
+            name = "Petj";
+
+            Console.WriteLine($"{MSG}, {name}");
+
+            MSG = "HELLO HELLO";
+
+            Console.ReadKey();
+        }
+    }
+}
