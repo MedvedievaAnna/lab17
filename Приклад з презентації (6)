@@ -1,0 +1,17 @@
+using System;
+
+namespace lab17
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string msg;
+            msg = "Hello";
+            string name = "vasj";
+            Console.WriteLine($"{msg}, {name}");
+
+            Console.ReadKey();
+        }
+    }
+}
